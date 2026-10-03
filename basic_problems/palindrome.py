@@ -3,7 +3,7 @@ num = int(input("Enter a number : "))
 revNum = 0
 dupNum = num
 
-while num > 0:
+while num > 0 or num < -1:
     last_degit = num % 10
     num = num // 10
     revNum = (revNum*10)+last_degit
