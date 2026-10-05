@@ -1,3 +1,18 @@
 def primeNumber(num):
-    count = 0
-    for i * i in range(num):
+
+    if num < 0:
+        return "Invalid number"
+
+    if num < 2:
+        return "Not a prime number"
+
+    for i in range(2, num):
+        if num % i == 0:
+            return "Not a prime number"
+
+    return "Prime number"
+
+
+num = int(input("Enter a number: "))
+
+print(primeNumber(num))
