@@ -26,3 +26,8 @@ print(a)
 #             helper(l+1,r-1)
 
 #         helper(0,n-1)
+
+
+# arr = [1, 2, 3, 4, 5]
+# Solution().reverse(arr, len(arr))
+# print(arr)
