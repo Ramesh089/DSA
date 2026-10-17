@@ -7,3 +7,4 @@ for i in nums:
     lt.append(total)
 
 print(total)
+print(lt)
