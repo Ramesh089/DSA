@@ -1,17 +1,17 @@
-# num = int(input("Enter a Number : "))
+num = int(input("Enter a Number : "))
 
-# last = 1
-# slast = 1
-# fibo = []
-# for i in range(1,num+1):
-#     fibo.append(last)
-#     last,slast = slast,last+slast
+last = 1
+slast = 1
+fibo = []
+for i in range(1,num+1):
+    fibo.append(last)
+    last,slast = slast,last+slast
 
 
-# print(last)
-# print(fibo)
+print(last)
+print(fibo)
 
-string = "hello"
-revstring = string[::-1]
+# string = "hello"
+# revstring = string[::-1]
 
-print(revstring)
+# print(revstring)
