@@ -22,6 +22,6 @@ def sortColor(nums):
     return nums
 
 
-nums = [2,0,2,1,1,0]
+nums = [2,0,2,1,1,0,0,0,1]
 print(sortColor(nums))
 
